@@ -29,3 +29,13 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
+
+ register_activation_hook( __FILE__, function(){
+    $logFilePath = plugin_dir_path( __FILE__ ) . 'log.txt';
+    file_put_contents( $logFilePath, date('Y-m-d H:i:s') . ': Plugin Activate!' . PHP_EOL, FILE_APPEND );
+ } );
+
+ register_deactivation_hook( __FILE__, function(){
+    $logFilePath = plugin_dir_path( __FILE__ ) . 'log.txt';
+    file_put_contents( $logFilePath, date('Y-m-d H:i:s') . ': Plugin Deactivate!' . PHP_EOL, FILE_APPEND );
+ } );
