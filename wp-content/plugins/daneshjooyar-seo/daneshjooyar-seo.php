@@ -31,6 +31,24 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
  register_activation_hook( __FILE__, function(){
+
+    $php    = '7.4';
+    $wp     = '5.0';
+
+    global $wp_version;
+
+    if( version_compare( $wp_version, $wp, '<' ) ){
+        wp_die(
+            sprintf( 'You must have atleast wordpress version %s, your current wordpress version is %s', $wp, $wp_version )
+        );
+    }
+
+    if( version_compare( PHP_VERSION, $php, '<' ) ){
+        wp_die(
+            sprintf( 'You must have atleast php version %s', $php )
+        );
+    }
+
     $logFilePath = plugin_dir_path( __FILE__ ) . 'log.txt';
     file_put_contents( $logFilePath, date('Y-m-d H:i:s') . ': Plugin Activate!' . PHP_EOL, FILE_APPEND );
  } );
