@@ -49,6 +49,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
         );
     }
 
+    add_option( 'daneshjooyar_seo_author', 'Hamed Moodi' );
+
     $logFilePath = plugin_dir_path( __FILE__ ) . 'log.txt';
     file_put_contents( $logFilePath, date('Y-m-d H:i:s') . ': Plugin Activate!' . PHP_EOL, FILE_APPEND );
  } );
