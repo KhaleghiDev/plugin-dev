@@ -1,0 +1,16 @@
+img.logo_edutsn {
+  width: 34px;
+  height: 34px;
+}
+
+.edutsn-title.wp-heading-inline {
+  display: inline-block;
+  font-family: tahoma;
+}
+.toplevel_page_edutsn_unversity .wp-menu-image img {
+  width: 34px;
+  height: 34px;
+}
+#adminmenu .wp-menu-image img {
+    padding: 0;
+}
