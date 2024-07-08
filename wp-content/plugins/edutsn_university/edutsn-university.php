@@ -12,26 +12,20 @@
  */
 // defined("ABSPATH") || exit;
 define("EDUTSN_URL",plugin_dir_url( __FILE__ ));
+define("EDUTSN_verstion",plugin_dir_url( __FILE__ ));
 define("EDUTSN_PATH",plugin_dir_path( __FILE__ ));
 define("EDUTSN_CSS_URL",EDUTSN_URL . "css/");
 define("EDUTSN_LOGO",EDUTSN_URL . "assets/images/logos.png");
 define("EDUTSN_ADMIN_URL",EDUTSN_PATH ."admin/");
 
-add_action( 'admin_head', 'custom_edutsn_admin_css' );
-
-function custom_edutsn_admin_css(){
-    echo  '<link rel="stylesheet" href="'.EDUTSN_URL.'assets/css/admin-custom.css">';
-
-}
-// echo EDUTSN_URL . 'assets/css/admin-custom.css';
-// die();
-// function enqueue_admin_custom_css(){
-// wp_enqueue_style( 'admin-custom', EDUTSN_URL . 'assets/css/admin-custom.css' );
-// }
+/**
+ * admin 
+ */
 include_once(EDUTSN_ADMIN_URL."register_plugin.php");
-
-
 include_once(EDUTSN_ADMIN_URL ."menu.php");
+require_once(EDUTSN_ADMIN_URL ."head.php");
+
+
 add_action("admin_menu","register_edutsn_custom_menu_page");
 
 

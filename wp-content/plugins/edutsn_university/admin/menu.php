@@ -7,7 +7,6 @@ function register_edutsn_custom_menu_page() {
 add_action('admin_menu', 'register_custom_menu_page');
 
 function _edutsn_custom_menu_page(){
-    echo '
-    <br><img class="logo_edutsn" src="'.EDUTSN_LOGO .'" whith="28px" hegint="28px"><h1 class="edutsn-title wp-heading-inline" >مدیریت دانشگاه ها </h1>';
+ require_once(EDUTSN_ADMIN_URL."form.php");
 }
 
