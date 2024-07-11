@@ -2,64 +2,73 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty-One package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-09 05:56:59+0000\n"
+"PO-Revision-Date: 2023-04-24 10:41:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
 "Language: fa\n"
 "Project-Id-Version: Themes - Twenty Twenty-One\n"
 
-#. translators: %s is the wordpress.org Twenty Twenty-One support article URL.
-#: classes/class-twenty-twenty-one-dark-mode.php:189
-msgid "https://wordpress.org/support/article/twenty-twenty-one/"
-msgstr "https://wordpress.org/support/article/twenty-twenty-one/"
+#. Description of the theme
+#, gp-priority: high
+msgid "Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog."
+msgstr "دو هزار و بیست و یک بومی خالی است تا ایده‎های خود را با استفاده از ویرایشگر بلوک برروی آن نقاشی کنید. الگوها طرح‎بندی‎های زیبایی را در دسترس شما قرار خواهند داد. درعرض ثانیه ها طرح‎های چشم‎نواز و شیک ایجاد کنید. هم‎اکنون  امتحان کنید و ببینید که چگونه دو هزار و بیست و یک سطح وبسایت کاری ویا وبلاگ شخصی شما را بالاتر می‏‎برد. "
 
-#. translators: %s is the wordpress.org Twenty Twenty-One support article URL.
-#: classes/class-twenty-twenty-one-dark-mode.php:188
+#. Theme Name of the theme
+#: classes/class-twenty-twenty-one-dark-mode.php:381 inc/block-patterns.php:24
+#, gp-priority: high
+msgid "Twenty Twenty-One"
+msgstr "دو هزار و بیست و یک"
+
+#: inc/template-tags.php:241
+msgid "Older <span class=\"nav-short\">posts</span>"
+msgstr "<span class=\"nav-short\">نوشته‌های</span> قدیمی‌تر"
+
+#: inc/template-tags.php:230
+msgid "Newer <span class=\"nav-short\">posts</span>"
+msgstr "<span class=\"nav-short\">نوشته‌های</span> جدیدتر"
+
+#: classes/class-twenty-twenty-one-customize-notice-control.php:40
+#: classes/class-twenty-twenty-one-dark-mode.php:178
+msgid "https://wordpress.org/documentation/article/twenty-twenty-one/#dark-mode-support"
+msgstr "https://wordpress.org/documentation/article/twenty-twenty-one/#dark-mode-support"
+
+#. translators: %s: Twenty Twenty-One support article URL.
+#: classes/class-twenty-twenty-one-dark-mode.php:177
 msgid "Dark Mode is a device setting. If a visitor to your site requests it, your site will be shown with a dark background and light text. <a href=\"%s\">Learn more about Dark Mode.</a>"
 msgstr "حالت تاریک تنظیمی برای دستگاه‌ها می‌باشد. اگر کاربر سایت درخواست حالت تاریک ارسال کند، سایت شما با زمینه تاریک و متن روشن نمایش داده خواهد شد. <a href=\"%s\">درمورد حالت تاریک بیشتر مطالعه کنید.</a>"
 
-#: classes/class-twenty-twenty-one-dark-mode.php:192
-msgid "Dark Mode can also be turned on and off with a button that you can find in the bottom right corner of the page."
-msgstr "حالت تاریک را با دکمه موجود در سمت چپ و پایین صفحه می‌توان روشن ویا خاموش کرد."
+#: classes/class-twenty-twenty-one-dark-mode.php:181
+msgid "Dark Mode can also be turned on and off with a button that you can find in the bottom corner of the page."
+msgstr "حالت تاریک همچنین می تواند روشن و خاموش شود با دکمه ای که می توانید در گوشه پایین صفحه پیدا کنید."
 
-#. translators: %s: The post-type name.
-#: inc/template-tags.php:255
-msgid "Older %s"
-msgstr "%s کهنه‌تر"
-
-#. translators: %s: The post-type name.
-#: inc/template-tags.php:247
-msgid "Newer %s"
-msgstr "%s تازه‌تر"
-
-#: classes/class-twenty-twenty-one-dark-mode.php:408
+#: classes/class-twenty-twenty-one-dark-mode.php:380
 msgid "This website uses LocalStorage to save the setting when Dark Mode support is turned on or off.<br> LocalStorage is necessary for the setting to work and is only used when a user clicks on the Dark Mode button.<br> No data is saved in the database or transferred."
 msgstr "این وبسایت در صورت فعال ویا غیرفعال سازی حالت تاریک از حافظه محلی استفاده می‎کند.<br> استفاده از حافظه محلی برای کارکرد صحیح حالت تاریک الزامی است و تنها در مواردی از آن استفاده خواهد شد که کاربر برروی دکمه حالت تاریک کلیک کند.<br> هیچ داده‎ای در پایگاه‎داده ثبت ویا ذخیره نمی‎شود."
 
-#: classes/class-twenty-twenty-one-dark-mode.php:407
+#: classes/class-twenty-twenty-one-dark-mode.php:379
 msgid "Suggested text:"
 msgstr "متن پیشنهاد شده:"
 
-#: classes/class-twenty-twenty-one-dark-mode.php:406
+#: classes/class-twenty-twenty-one-dark-mode.php:378
 msgid "Twenty Twenty-One uses LocalStorage when Dark Mode support is enabled."
 msgstr "پوسته دو هزار و بیست و یک درصورت فعال بودن حالت تاریک، از حافظه محلی استفاده می‎کند."
 
-#: classes/class-twenty-twenty-one-dark-mode.php:199
+#: classes/class-twenty-twenty-one-dark-mode.php:188
 msgid "Dark Mode support"
 msgstr "پشتیبانی از حالت تاریک"
 
-#: classes/class-twenty-twenty-one-customize-notice-control.php:43
+#: classes/class-twenty-twenty-one-customize-notice-control.php:41
 msgid "Learn more about Dark Mode."
 msgstr "درباره حالت تاریک بیشتر بدانید."
 
-#: classes/class-twenty-twenty-one-customize-notice-control.php:41
+#: classes/class-twenty-twenty-one-customize-notice-control.php:39
 msgid "To access the Dark Mode settings, select a light background color."
 msgstr "برای دسترسی به تنظیمات حالت تاریک، یک زمینه روشن انتخاب کنید."
 
-#: classes/class-twenty-twenty-one-dark-mode.php:145
+#: classes/class-twenty-twenty-one-dark-mode.php:134
 msgid "Colors & Dark Mode"
 msgstr "رنگ‎ بندی و حالت تاریک"
 
@@ -68,63 +77,53 @@ msgctxt "Label for sticky posts"
 msgid "Featured post"
 msgstr "نوشته ویژه"
 
-#: inc/template-functions.php:399
+#: inc/template-functions.php:424
 msgctxt "Post password form"
 msgid "Submit"
 msgstr "ارسال"
 
-#: inc/template-functions.php:399
+#: inc/template-functions.php:424
 msgctxt "Post password form"
 msgid "Password"
 msgstr "رمز عبور"
 
-#: inc/template-functions.php:174
+#: inc/template-functions.php:183
 msgctxt "Added to posts and pages that are missing titles"
 msgid "Untitled"
 msgstr "بدون عنوان"
 
-#: inc/block-patterns.php:117
+#: inc/block-patterns.php:136
 msgctxt "Block pattern sample content"
 msgid "Cambridge, MA, 02139"
 msgstr "کمبریج، ماساچوست، 02139"
 
-#: inc/block-patterns.php:117
+#: inc/block-patterns.php:136
 msgctxt "Block pattern sample content"
 msgid "123 Main Street"
 msgstr "خیابان اصلی 123"
 
-#: inc/block-patterns.php:117
+#: inc/block-patterns.php:136
 msgctxt "Block pattern sample content"
 msgid "123-456-7890"
 msgstr "123-456-7890"
 
-#: inc/block-patterns.php:117
+#: inc/block-patterns.php:136
 msgctxt "Block pattern sample content"
 msgid "example@example.com"
 msgstr "example@example.com"
 
-#: classes/class-twenty-twenty-one-customize.php:143
+#: classes/class-twenty-twenty-one-customize.php:138
 msgctxt "Customizer control"
 msgid "Background color"
 msgstr "رنگ زمینه"
-
-#. translators: %s: The post-type singlular name (example: Post, Page etc)
-#: single.php:53
-msgid "Previous %s"
-msgstr "قبلی %s"
-
-#. translators: %s: The post-type singlular name (example: Post, Page etc)
-#: single.php:51
-msgid "Next %s"
-msgstr "بعدی %s"
 
 #. translators: %s: WordPress Version.
 #: inc/back-compat.php:42 inc/back-compat.php:61 inc/back-compat.php:86
 msgid "This theme requires WordPress 5.3 or newer. You are running version %s. Please upgrade."
 msgstr "این پوسته نیازمند وردپرس نسخه 5.3 ویا جدیدتر می‎باشد. درحال حاضر از نسخه %s استفاده می‎کنید. لطفا وردپرس را ارتقا دهید."
 
-#. translators: %: page number.
-#: image.php:46 template-parts/content/content-page.php:36
+#. translators: %: Page number.
+#: image.php:48 template-parts/content/content-page.php:36
 #: template-parts/content/content-single.php:30
 #: template-parts/content/content.php:36
 msgid "Page %"
@@ -165,60 +164,61 @@ msgctxt "Font size"
 msgid "XS"
 msgstr "XS"
 
-#: comments.php:88
+#: comments.php:85
 msgid "Leave a comment"
 msgstr "دیدگاهی بنویسید"
 
-#. translators: %s: comment count number.
-#: comments.php:40
+#. translators: %s: Comment count number.
+#: comments.php:39
 msgctxt "Comments title"
 msgid "%s comment"
 msgid_plural "%s comments"
 msgstr[0] "%s دیدگاه"
 
-#: comments.php:35
+#: comments.php:34
 msgid "1 comment"
 msgstr "یک دیدگاه"
 
-#: classes/class-twenty-twenty-one-dark-mode.php:358
+#: classes/class-twenty-twenty-one-dark-mode.php:334
 msgid "On"
 msgstr "فعال"
 
-#: classes/class-twenty-twenty-one-dark-mode.php:355
+#: classes/class-twenty-twenty-one-dark-mode.php:331
 msgid "Off"
 msgstr "غیرفعال"
 
 #. translators: %s: On/Off
-#: classes/class-twenty-twenty-one-dark-mode.php:345
+#: classes/class-twenty-twenty-one-dark-mode.php:321
 msgid "Dark Mode: %s"
 msgstr "حالت تاریک: %s"
 
-#: inc/template-functions.php:397
+#: inc/template-functions.php:422
 msgid "This content is password protected. Please enter a password to view."
 msgstr "این محتوا با رمز عبور محافظت شده است. برای مشاهده لطفا رمز عبور را وارد کنید."
 
+#. translators: Hidden accessibility text.
 #: inc/menu-functions.php:35
 msgid "Open menu"
 msgstr "باز کردن فهرست"
 
-#: inc/block-patterns.php:107
+#: inc/block-patterns.php:125
 msgid "&#8220;Reading&#8221; by Berthe Morisot"
 msgstr "&#8220;در حال خواندن&#8221; توسط برت موریسو"
 
-#: inc/block-patterns.php:84
+#: inc/block-patterns.php:101
 msgid "&#8220;Self portrait&#8221; by Berthe Morisot"
 msgstr "&#8220;خودنگاره&#8221; توسط برت موریسو"
 
-#: inc/block-patterns.php:84
+#: inc/block-patterns.php:101
 msgid "&#8220;Daffodils&#8221; by Berthe Morisot"
 msgstr "&#8220;نرگس&#8221; توسط برت موریسو"
 
-#: inc/block-patterns.php:72 inc/block-patterns.php:107
+#: inc/block-patterns.php:89 inc/block-patterns.php:125
 #: inc/starter-content.php:43
-msgid "&#8220;Roses Tremieres&#8221; by Berthe Morisot"
-msgstr "&#8220;ختمی&#8221; توسط برت موریسو"
+msgid "&#8220;Roses Trémières&#8221; by Berthe Morisot"
+msgstr "&#8220;گل ختمی&#8221; توسط برت موریسو"
 
-#: inc/template-functions.php:399
+#: inc/template-functions.php:424
 msgctxt "Post password form"
 msgid "Enter"
 msgstr "وارد نمایید"
@@ -273,79 +273,74 @@ msgctxt "Theme starter content"
 msgid "Create your website with blocks"
 msgstr "وبسایت خود را با بلوک‎ها ایجاد کنید"
 
-#: inc/block-patterns.php:107
+#: inc/block-patterns.php:125
 msgid "Reading"
 msgstr "خواندن"
 
-#: inc/block-patterns.php:107
+#: inc/block-patterns.php:125
 msgid "Young Woman in Mauve"
 msgstr "زن جوان بنفش‎گون"
 
-#: inc/block-patterns.php:107
+#: inc/block-patterns.php:125
 msgid "The Garden at Bougival"
 msgstr "باغی در بوجيفال"
 
-#: inc/block-patterns.php:107
+#: inc/block-patterns.php:125
 msgid "In the Bois de Boulogne"
 msgstr "در بوئس دی بولونی"
 
-#: inc/block-patterns.php:107
+#: inc/block-patterns.php:125
 msgid "Villa with Orange Trees, Nice"
 msgstr "ویلایی با درخت‎های پرتقال، چه زیبا!"
 
-#: inc/block-patterns.php:107
-msgid "Roses Tremieres"
-msgstr "ختمی"
+#: inc/block-patterns.php:125
+msgid "Roses Trémières"
+msgstr "گل ختمی"
 
-#: inc/block-patterns.php:96
+#: inc/block-patterns.php:114
 msgid "&#8220;Villa with Orange Trees, Nice&#8221; by Berthe Morisot"
 msgstr "&#8220;ویلایی با درخت‎های پرتقال، چه زیبا!&#8221; توسط برت موریسو"
 
-#: inc/block-patterns.php:96
+#: inc/block-patterns.php:114
 msgid "Beautiful gardens painted by Berthe Morisot in the late 1800s"
 msgstr "باغ‎های زیبا در اواخر قرن نوزدهم توسط برت موریسو نقاشی شده‎ است"
 
-#: inc/block-patterns.php:96 inc/block-patterns.php:107
+#: inc/block-patterns.php:114 inc/block-patterns.php:125
 msgid "&#8220;The Garden at Bougival&#8221; by Berthe Morisot"
 msgstr "&#8220;باغی در بوجيفال&#8221; توسط برت موریسو"
 
-#: inc/block-patterns.php:72 inc/block-patterns.php:107
+#: inc/block-patterns.php:89 inc/block-patterns.php:125
 #: inc/starter-content.php:61
 msgid "&#8220;Young Woman in Mauve&#8221; by Berthe Morisot"
 msgstr "&#8220;زن جوان بنفش‎گون&#8221; توسط برت موریسو"
 
-#: inc/block-patterns.php:72 inc/block-patterns.php:107
+#: inc/block-patterns.php:89 inc/block-patterns.php:125
 #: inc/starter-content.php:51
 msgid "&#8220;In the Bois de Boulogne&#8221; by Berthe Morisot"
 msgstr "&#8220;در بوئس دی بولونی&#8221; توسط برت موریسو"
 
-#: inc/block-patterns.php:60
+#: inc/block-patterns.php:76
 msgid "Berthe Morisot<br>(French, 1841-1895)"
 msgstr "برت موریسو<br>(فرانسه، 1841-1895)"
 
-#: inc/block-patterns.php:60
+#: inc/block-patterns.php:76
 msgid "Playing in the Sand"
 msgstr "بازی در شن"
 
-#: inc/block-patterns.php:60
+#: inc/block-patterns.php:76
 msgid "&#8220;Playing in the Sand&#8221; by Berthe Morisot"
 msgstr "&#8220;بازی در شن&#8221; توسط برت موریسو"
 
-#. translators: %s: parent post.
-#: image.php:59
+#. translators: %s: Parent post.
+#: image.php:61
 msgid "Published in %s"
 msgstr "منتشر شده در %s"
 
-#. translators: There is a space after page.
-#: comments.php:63 inc/template-tags.php:240
-msgid "Page "
-msgstr "برگه‌ی "
-
-#: classes/class-twenty-twenty-one-customize.php:113
+#: classes/class-twenty-twenty-one-customize.php:108
 msgid "Summary"
 msgstr "خلاصه"
 
-#: classes/class-twenty-twenty-one-customize.php:90
+#: classes/class-twenty-twenty-one-customize.php:85
 msgid "Excerpt Settings"
 msgstr "تنظیمات چکیده"
 
@@ -353,18 +348,17 @@ msgstr "تنظیمات چکیده"
 msgid "Thick"
 msgstr "ضخیم"
 
-#: classes/class-twenty-twenty-one-customize.php:111
+#: classes/class-twenty-twenty-one-customize.php:106
 msgid "On Archive Pages, posts show:"
 msgstr "نمایش نوشته‌ها در برگه‌های بایگانی:"
 
-#. translators: 1: Link to authors posts. 2: Author name.
-#: template-parts/post/author-bio.php:20
-msgid "View all of %2$s's posts."
-msgstr "مشاهده همه نوشته‎های %2$s."
+#. translators: %s: Author name.
+#: template-parts/post/author-bio.php:31
+msgid "View all of %s's posts."
+msgstr "مشاهده همه نوشته ها %s."
 
-#. translators: %s author name.
-#. translators: 1: Author name.
-#: inc/template-tags.php:49 template-parts/post/author-bio.php:15
+#. translators: %s: Author name.
+#: inc/template-tags.php:49 template-parts/post/author-bio.php:19
 msgid "By %s"
 msgstr "توسط %s"
 
@@ -376,12 +370,20 @@ msgstr "به‌نظر می‌رسد نمی‌توانیم چیزی که شما �
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr "متاسفانه جستجوی شما نتیجه‌ای در بر نداشت. لطفا با واژه‌های دیگری جستجو کنید."
 
-#. translators: 1: link to WP admin new post page.
+#. translators: %s: Link to WP admin new post page.
 #: template-parts/content/content-none.php:43
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "آماده‌ی انتشار نخستین نوشته‌ی خود هستید؟ <a href=\"%1$s\">از اینجا شروع کنید</a>."
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "آماده‌ی انتشار اولین نوشته‌ی خود هستید؟ <a href=\"%s\">از اینجا شروع کنید</a>."
 
-#. translators: %s: parent post link.
+#: single.php:40
+msgid "Previous post"
+msgstr "نوشتهٔ پیشین"
+
+#: single.php:39
+msgid "Next post"
+msgstr "نوشته بعدی"
+
+#. translators: %s: Parent post link.
 #: single.php:25
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%s</span>"
 msgstr "<span class=\"meta-nav\">منتشر شده در</span><span class=\"post-title\">%s</span>"
@@ -395,41 +397,40 @@ msgstr "جستجو"
 msgid "Search&hellip;"
 msgstr "جستجو&hellip;"
 
-#. translators: %d: the number of search results.
+#. translators: %d: The number of search results.
 #: search.php:33
 msgid "We found %d result for your search."
 msgid_plural "We found %d results for your search."
 msgstr[0] "برای جستجوی شما %d نتیجه پیدا شد."
 
-#. translators: %s: search term.
+#. translators: %s: Search term.
 #: search.php:21 template-parts/content/content-none.php:22
 msgid "Results for \"%s\""
 msgstr "نتایج برای \"%s\""
 
-#. translators: %s: list of tags.
-#: inc/template-tags.php:118 inc/template-tags.php:162
+#. translators: %s: List of tags.
+#: inc/template-tags.php:116 inc/template-tags.php:158
 msgid "Tagged %s"
 msgstr "برچسب خورده با %s"
 
-#. translators: %s: list of categories.
-#: inc/template-tags.php:108 inc/template-tags.php:152
+#. translators: %s: List of categories.
+#: inc/template-tags.php:107 inc/template-tags.php:149
 msgid "Categorized as %s"
 msgstr "دسته‌بندی شده در %s"
 
-#. translators: used between list items, there is a space after the comma.
-#: inc/template-tags.php:104 inc/template-tags.php:114
-#: inc/template-tags.php:148 inc/template-tags.php:158
+#. translators: Used between list items, there is a space after the comma.
+#: functions.php:654
 msgid ", "
 msgstr "،"
 
-#. translators: %s: Name of current post. Only visible to screen readers.
-#: image.php:68 image.php:93 inc/template-tags.php:92 inc/template-tags.php:135
+#. translators: %s: Post title. Only visible to screen readers.
+#: image.php:70 image.php:96 inc/template-tags.php:92 inc/template-tags.php:133
 #: template-parts/content/content-page.php:48
 msgid "Edit %s"
 msgstr "ویرایش %s"
 
-#. translators: %s: Name of current post.
-#: inc/template-functions.php:132
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-functions.php:138
 msgid "Continue reading %s"
 msgstr "ادامه خواندن %s"
 
@@ -450,108 +451,110 @@ msgstr "لبه‌دار"
 msgid "Overlap"
 msgstr "هم‎پوشانی"
 
-#: inc/block-patterns.php:116
+#: inc/block-patterns.php:135
 msgctxt "Block pattern description"
 msgid "A block with 3 columns that display contact information and social media links."
 msgstr "بلوکی با سه ستون که اطلاعات تماس و پیوندهای شبکه‎های اجتماعی را نمایش می‎دهد."
 
-#: inc/block-patterns.php:114
+#: inc/block-patterns.php:132
 msgid "Contact information"
 msgstr "اطلاعات تماس"
 
-#: inc/block-patterns.php:106
+#: inc/block-patterns.php:124
 msgctxt "Block pattern description"
 msgid "A list of projects with thumbnail images."
 msgstr "فهرست پروژه‎ها با تصاویر بندانگشتی."
 
-#: inc/block-patterns.php:104
+#: inc/block-patterns.php:122
 msgid "Portfolio list"
 msgstr "فهرست نمونه کار"
 
-#: inc/block-patterns.php:95
+#: inc/block-patterns.php:113
 msgctxt "Block pattern description"
 msgid "An overlapping columns block with two images and a text description."
 msgstr "بلوکی که ستون‎های آن دارای هم‎پوشانی با دو تصویر و یک متن توضیحات هستند."
 
-#: inc/block-patterns.php:92
+#: inc/block-patterns.php:109
 msgid "Overlapping images and text"
 msgstr "تصاویر و متن‎های دارای همپوشانی"
 
-#: inc/block-patterns.php:83
+#: inc/block-patterns.php:100
 msgctxt "Block pattern description"
 msgid "A media & text block with a big image on the left and a smaller one with bordered frame on the right."
 msgstr "بلوک رسانه و متن که دارای تصویر بزرگ در سمت راست و تصویری کوچکتر با چهارچوب لبه‎دار در سمت چپ است."
 
-#: inc/block-patterns.php:80
+#: inc/block-patterns.php:97
 msgid "Two images showcase"
 msgstr "ویترین دو تصویر"
 
-#: inc/block-patterns.php:71
+#: inc/block-patterns.php:88
 msgctxt "Block pattern description"
 msgid "Three images inside an overlapping columns block."
 msgstr "سه تصویر داخل بلوکی که ستون‎های آن هم‎پوشانی دارند."
 
-#: inc/block-patterns.php:68
+#: inc/block-patterns.php:84
 msgid "Overlapping images"
 msgstr "تصاویر دارای همپوشانی"
 
-#: inc/block-patterns.php:59
+#: inc/block-patterns.php:75
 msgctxt "Block pattern description"
 msgid "A Media & Text block with a big image on the left and a heading on the right. The heading is followed by a separator and a description paragraph."
 msgstr "بلوک رسانه و متن همراه با تصویری بزرگ در سمت راست و تیتر در سمت چپ که به دنبال تیتر یک جداکننده و یک بند توضیحات قرار دارد."
 
-#: inc/block-patterns.php:56
+#: inc/block-patterns.php:72
 msgid "Media and text article title"
 msgstr "عنوان مقاله رسانه‎ای و متنی"
 
-#: inc/block-patterns.php:48
+#: inc/block-patterns.php:64
 msgid "example@example.com"
 msgstr "example@example.com"
 
-#: inc/block-patterns.php:48
+#: inc/block-patterns.php:64
 msgid "Dribbble"
 msgstr "دریبل زدن"
 
-#: inc/block-patterns.php:48
+#: inc/block-patterns.php:64
 msgid "Instagram"
 msgstr "اینستاگرام"
 
-#: inc/block-patterns.php:48
+#: inc/block-patterns.php:64
 msgid "Twitter"
 msgstr "توییتر"
 
-#: inc/block-patterns.php:48
+#: inc/block-patterns.php:64
 msgid "Let&#8217;s Connect."
 msgstr "برقراری ارتباط."
 
-#: inc/block-patterns.php:47
+#: inc/block-patterns.php:63
 msgctxt "Block pattern description"
 msgid "A huge text followed by social networks and email address links."
 msgstr "متنی بزرگ به‎ دنبال پیوندهای شبکه های اجتماعی و ایمیل."
 
-#: inc/block-patterns.php:44
+#: inc/block-patterns.php:59
 msgid "Links area"
 msgstr "ناحیه پیوندها"
 
-#: inc/block-patterns.php:36
+#: inc/block-patterns.php:51
 msgid "A new portfolio default theme for WordPress"
 msgstr "پوسته‎ای جدید با سبک نمونه کار ساخته شده برای وردپرس"
 
-#: inc/block-patterns.php:33
+#: inc/block-patterns.php:47
 msgid "Large text"
 msgstr "متن بزرگ"
 
-#: image.php:81
+#. translators: Hidden accessibility text.
+#: image.php:84
 msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "اندازه کامل"
 
-#. translators: %s: publish date.
+#. translators: %s: Publish date.
 #: inc/template-tags.php:29
 msgid "Published %s"
 msgstr "منتشر شده در %s"
 
-#: image.php:43 template-parts/content/content-page.php:33
+#: comments.php:61 image.php:45 inc/template-tags.php:224
+#: template-parts/content/content-page.php:33
 #: template-parts/content/content-single.php:27
 #: template-parts/content/content.php:33
 msgid "Page"
@@ -570,15 +573,16 @@ msgstr "فهرست"
 msgid "Primary menu"
 msgstr "فهرست اصلی"
 
-#: header.php:26
+#. translators: Hidden accessibility text.
+#: header.php:29
 msgid "Skip to content"
 msgstr "پرش به محتوا"
 
-#: functions.php:360
+#: functions.php:363
 msgid "Add widgets here to appear in your footer."
 msgstr "برای نمایش ابزارک ها در پاورقی، آن ها را به اینجا اضافه کنید."
 
-#: functions.php:358
+#: functions.php:361
 msgid "Footer"
 msgstr "پاورقی"
 
@@ -683,7 +687,7 @@ msgid "Extra small"
 msgstr "بسیار کوچک"
 
 #. translators: %s: WordPress.
-#: footer.php:60
+#: footer.php:67
 msgid "Proudly powered by %s."
 msgstr "با افتخار، نیرو گرفته از %s."
 
@@ -691,23 +695,23 @@ msgstr "با افتخار، نیرو گرفته از %s."
 msgid "Secondary menu"
 msgstr "فهرست فرعی"
 
-#: comments.php:80
+#: comments.php:78
 msgid "Comments are closed."
 msgstr "دیدگاه‌ها بسته شده‌اند."
 
-#: comments.php:72
+#: comments.php:70
 msgid "Newer comments"
 msgstr "دیدگاه‌های تازه‌تر"
 
-#: comments.php:68
+#: comments.php:66
 msgid "Older comments"
 msgstr "دیدگاه‌های قدیمی‌تر"
 
-#: classes/class-twenty-twenty-one-customize.php:114
+#: classes/class-twenty-twenty-one-customize.php:109
 msgid "Full text"
 msgstr "متن کامل"
 
-#: classes/class-twenty-twenty-one-customize.php:80
+#: classes/class-twenty-twenty-one-customize.php:75
 msgid "Display Site Title & Tagline"
 msgstr "نمایش عنوان و شعار سایت"
 
@@ -720,23 +724,17 @@ msgid "Nothing here"
 msgstr "هیچ چیزی اینجا نیست"
 
 #. Author URI of the theme
-#: footer.php:61
+#: footer.php:68
+#, gp-priority: low
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
 
 #. Author of the theme
+#, gp-priority: low
 msgid "the WordPress team"
 msgstr "تیم وردپرس"
 
-#. Description of the theme
-msgid "Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog."
-msgstr "دو هزار و بیست و یک بومی خالی است تا ایده‎های خود را با استفاده از ویرایشگر بلوک برروی آن نقاشی کنید. الگوها طرح‎بندی‎های زیبایی را در دسترس شما قرار خواهند داد. درعرض ثانیه ها طرح‎های چشم‎نواز و شیک ایجاد کنید. هم‎اکنون  امتحان کنید و ببینید که چگونه دو هزار و بیست و یک سطح وبسایت کاری ویا وبلاگ شخصی شما را بالاتر می‏‎برد. "
-
 #. Theme URI of the theme
+#, gp-priority: low
 msgid "https://wordpress.org/themes/twentytwentyone/"
 msgstr "https://wordpress.org/themes/twentytwentyone/"
-
-#. Theme Name of the theme
-#: inc/block-patterns.php:20
-msgid "Twenty Twenty-One"
-msgstr "دو هزار و بیست و یک"
