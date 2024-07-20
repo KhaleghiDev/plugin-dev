@@ -10,3 +10,15 @@ function custom_edutsn_admin_css(){
   );
 
 }
+
+
+add_action( 'admin_footer', 'custom_edutsn_admin_js' );
+function custom_edutsn_admin_js(){
+  wp_enqueue_style(
+      'edutsn_style_custum_js',
+  EDUTSN_URL.'assets/js/admin-custom.js',
+  [] ,
+  WP_DEBUG ? time() : EDUTSN_verstion,
+);
+
+}
